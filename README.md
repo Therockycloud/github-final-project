@@ -1,16 +1,18 @@
-# Introduction to Git and GitHub
+# Paradise Nursery Shopping Application
 
-## Simple Interest Calculator
+Paradise Nursery is a React shopping cart application for an online houseplant store. Users can browse plants by category, add plants to a cart, review quantities and totals, remove items, and continue shopping.
 
-A calculator that calculates simple interest given principal, annual rate of interest and time period in years.
+## Features
 
+- Landing page with Paradise Nursery branding and a Get Started button
+- Product listing grouped into plant categories
+- Redux-powered cart state
+- Dynamic cart item count in the navigation bar
+- Cart page with item totals, quantity controls, delete buttons, and checkout placeholder
+
+## Run locally
+
+```bash
+npm install
+npm run dev
 ```
-Input:
-   p, principal amount
-   t, time period in years
-   r, annual rate of interest
-Output
-   simple interest = p*t*r
-```
-
-_© 2022 XYZ, Inc._

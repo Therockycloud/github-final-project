@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# JavaScript dependencies and build output
+node_modules/
+dist/
